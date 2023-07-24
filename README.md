@@ -1,12 +1,12 @@
 # Partial Additive Speech
 This is a pytorch implementation of [Partial Additive Speech data augmentation method](https://arxiv.org/abs/2307.10628).  
   
-- __Title__ - PAS: Partial Additive Speech Data Augmentation Method for Noise Robust Speaker Verification
+- __Title__ - PAS: Partial Additive Speech Data Augmentation Method for Noise Robust Speaker Verification (poster presentation at CKAIA2023)
 - __Authors__ - Wonbin Kim, Hyun-seo Shin, Ju-ho Kim, Jungwoo Heo, Chan-yeong Lim, Ha-Jin Yu
   
 ## Abstract
-![fig1](img/fig1.PNG)  
-![algorithm](img/algorithm.PNG)
+<img src="img/fig1.PNG" align="middle" width="1500"/><br/><br/>
+<img src="img/algorithm.PNG" align="middle" width="1500"/><br/><br/>
 Background noise reduces speech intelligibility and quality, making speaker verification (SV) in noisy environments a challenging task. To improve the noise robustness of SV systems, additive noise data augmentation method has been commonly used. In this paper, we propose a new additive noise method, partial additive speech (PAS), which aims to train SV systems to be less affected by noisy environments. The experimental results demonstrate that PAS outperforms traditional additive noise in terms of equal error rates (EER), with relative improvements of 4.64% and 5.01% observed in SE-ResNet34 and ECAPA-TDNN. We also show the effectiveness of proposed method by analyzing attention modules and visualizing speaker embeddings.  
   
 ## Preprocessing
@@ -17,7 +17,7 @@ The modifying just requires set path variables to detect where are VoxCeleb1 dat
 ## Run
 
 __1. With docker__  
-change paths for mounting in `launch.sh` file and run it.  
+change paths in `launch.sh` file and run it.  
 - `/data/vox1_musan` - root folder of musan noise
 - `/data/voxceleb1` - root folder of VoxCeleb1 data. this folder should have sub directories, `train` and `test`.  
   
