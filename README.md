@@ -5,8 +5,8 @@ This is a pytorch implementation of [Partial Additive Speech data augmentation m
 - __Authors__ - Wonbin Kim, Hyun-seo Shin, Ju-ho Kim, Jungwoo Heo, Chan-yeong Lim, Ha-Jin Yu
   
 ## Abstract
-<img src="img/fig1.PNG" align="middle" width="1500"/><br/><br/>
-<img src="img/algorithm.PNG" align="middle" width="1500"/><br/><br/>
+<img src="img/fig1.PNG" align="middle" width="600"/><br/><br/>
+<img src="img/algorithm.PNG" align="middle" width="600"/><br/><br/>
 Background noise reduces speech intelligibility and quality, making speaker verification (SV) in noisy environments a challenging task. To improve the noise robustness of SV systems, additive noise data augmentation method has been commonly used. In this paper, we propose a new additive noise method, partial additive speech (PAS), which aims to train SV systems to be less affected by noisy environments. The experimental results demonstrate that PAS outperforms traditional additive noise in terms of equal error rates (EER), with relative improvements of 4.64% and 5.01% observed in SE-ResNet34 and ECAPA-TDNN. We also show the effectiveness of proposed method by analyzing attention modules and visualizing speaker embeddings.  
   
 ## Preprocessing
